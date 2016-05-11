@@ -12,3 +12,9 @@
 .food-sponsor{
 
 }
+
+#sponsor-table td {
+    /*border: 1px solid #42536f;*/
+    text-align: center;
+    vertical-align: middle;
+}
