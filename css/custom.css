@@ -199,9 +199,13 @@ body {
     cursor: pointer;
 }
 
-.sponsors .sponsors-table tr td a img {
-    width: 270px;
-    margin: 10px;
+.sponsors .sp-logo {
+    display: inline-block;
+}
+
+.sponsors .sp-logo img {
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .footer {

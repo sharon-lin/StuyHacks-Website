@@ -30,9 +30,9 @@
         <br/><br/>
         <ul class="navbar">
             <li></li>
-            <li><a href="#home">About</a></li>
-            <li><a href="#logistics">Logistics</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
+            <li><a id="to-about" href="">About</a></li>
+            <li><a id="to-logistics" href="">Logistics</a></li>
+            <li><a id="to-sponsors" href="">Sponsors</a></li>
         </ul>
         <br/><br/><br/><br/>
         <div class="hero-head">
@@ -95,32 +95,24 @@
 
     <div class="sponsors">
         <center>
-            <table class="sponsors-table">
-                <p class="section-heading">Sponsors</p>
-                <p class="section-content">
-                    Do you want your company's name and logo on our program, t-shirts, banner, website, and more? If you want to have a chance at meeting some of the brightest high school students in New York City and making a real name for your organization, feel free to contact us for sponsorship opportunities! We offer a tiered sponsorship system so that you can choose the option that will best fit your company's interests and needs.
-                </p>
-                <br/>
-                <a id="guide" href="">Sponsorship Guide</a>
-                <br/>
-                <tr>
-                    <td>
-                        <a href="http://www.stickeryou.com/2/products/custom-stickers/335?utm_source=HACKSTORY2&utm_medium=Sponsorship&utm_campaign=SPONSORSHIP-Sponsorship" target="_blank">
-                            <img src="img/logo/stickeryou.png"/>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.balsamiq.com/" target="_blank">
-                            <img src="img/logo/balasmiq.png"/>
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.stickergiant.com/" target="_blank">
-                            <img src="img/logo/stickergiant.png"/>
-                        </a>
-                    </td>
-                </tr>
-            </table>
+            <p class="section-heading">Sponsors</p>
+            <p class="section-content">
+                Do you want your company's name and logo on our program, t-shirts, banner, website, and more? If you want to have a chance at meeting some of the brightest high school students in New York City and making a real name for your organization, feel free to contact us for sponsorship opportunities! We offer a tiered sponsorship system so that you can choose the option that will best fit your company's interests and needs.
+            </p>
+            <br/>
+            <a id="guide" href="">Sponsorship Guide</a>
+            <br/>
+
+            <a class="sp-logo" href="http://www.stickeryou.com/2/products/custom-stickers/335?utm_source=HACKSTORY2&utm_medium=Sponsorship&utm_campaign=SPONSORSHIP-Sponsorship" target="_blank">
+                <img src="img/logo/stickeryou.png"/>
+            </a>
+            <a class="sp-logo" href="https://www.balsamiq.com/" target="_blank">
+                <img src="img/logo/balasmiq.png"/>
+            </a>
+            <a class="sp-logo" href="https://www.stickergiant.com/" target="_blank">
+                <img src="img/logo/stickergiant.png"/>
+            </a>
+
         </center>
     </div>
 
@@ -142,5 +134,23 @@
         </center>
     </div>
 
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $("#to-about").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".about").offset().top
+        }, 500);
+    });
+    $("#to-logistics").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".schedule").offset().top
+        }, 1000);
+    });
+    $("#to-sponsors").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".sponsors").offset().top
+        }, 1500);
+    });
+    </script>
 </body>
 </html>
