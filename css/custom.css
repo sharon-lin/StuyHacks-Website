@@ -12,6 +12,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 body {
@@ -55,6 +56,13 @@ body {
     font-weight: bold;
 }
 
+@media (max-width: 520px) {
+    .navbar li {
+        display: block;
+        margin: 5px;
+    }
+}
+
 .hero-head {
     text-align: center;
     font-size: 72px;
@@ -63,6 +71,12 @@ body {
     color: #fff;
     letter-spacing: 8px;
     text-transform: uppercase;
+}
+
+@media (max-width: 450px) {
+    .hero-head {
+        font-size: 60px;
+    }
 }
 
 .hero-subhead {
@@ -143,9 +157,6 @@ body {
     letter-spacing: 0.08em;
     color: #fff;
     padding: 50px;
-}
-
-.schedule p {
 }
 
 .schedule .section-heading {

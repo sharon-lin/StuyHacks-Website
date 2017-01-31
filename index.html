@@ -29,7 +29,6 @@
     <div class="hero">
         <br/><br/>
         <ul class="navbar">
-            <li></li>
             <li><a id="to-about" href="">About</a></li>
             <li><a id="to-logistics" href="">Logistics</a></li>
             <li><a id="to-sponsors" href="">Sponsors</a></li>
@@ -41,9 +40,8 @@
             StuyHacks
         </div>
         <p class="hero-subhead">
-            General Assembly (tentative)<br>
-            902 Broadway, New York, NY 10010 <br>
-            May 20 - May 21 '17 <br>
+            (venue T.B.D)<br>
+            May 27 - May 28 '17 <br>
         </p>
 
         <div class="hero-cta">
@@ -136,6 +134,11 @@
 
     <script src="js/jquery.min.js"></script>
     <script>
+    $("#hero-arrow").click(function() {
+        $('html, body').animate({
+            scrollTop: $(".about").offset().top
+        }, 500);
+    });
     $("#to-about").click(function() {
         $('html, body').animate({
             scrollTop: $(".about").offset().top
