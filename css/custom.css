@@ -1,18 +1,15 @@
 * {
-    font-family: "Roboto", sans-serif;
-}
-
-input, button, submit {
-    border:none;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
-    margin: 0;
+
     background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.65),
-      rgba(0, 0, 0, 0.65)
-    ), url(../img/hero-new.jpg) no-repeat center center fixed;
+        linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/people.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,42 +17,68 @@ html {
 }
 
 body {
-    background-color: transparent !important;
-    text-align: right;
+    margin: 50px;
 }
 
-.hero {
-    margin-right: 100px;
+h1 {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.01em;
 }
 
-.hero #title {
-    font-size: 72px;
-    margin: 0px;
+.event-desc {
+    line-height: 1.5em;
+    color: #888;
+    font-size: 14pt;
+}
+
+input {
+    width: auto;
+    height: auto;
+    padding: 8px;
+    font-size: 10pt;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+input[ type=text ] {
+    width: auto;
+    height: auto;
+    border-color: #888;
+    color: #fff;
+    background: transparent;
+}
+
+input[ type=submit ] {
+    background: #00CDAC;
+    margin: 20px;
     color: white;
-    letter-spacing: .01em;
-    font-weight: 300;
+    border-color: #00CDAC;
 }
 
-.hero #subtitle {
-    font-size: 28px;
-    margin: 0px;
-    color: white;
-    letter-spacing: .02em;
-    font-weight: 300;
+input[ type=submit ]:hover {
+    cursor: pointer;
 }
 
-.hero .page-directs {
-    display: block;
+.sponsors {
+    font-size: 11pt;
+    color: #fff;
+    line-height: 1.5em;
 }
 
-.hero .page-directs,
-.hero .page-directs a {
-    color: #aaa;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 400;
+footer {
+    font-size: 10pt;
+    color: #888;
+    letter-spacing: 0.02em;
 }
 
-.hero .btn-register {
-    
+footer .social i {
+    margin-right: 10px;
+    font-size: 12pt;
+}
+
+footer p {
+    white-space: pre;
 }
