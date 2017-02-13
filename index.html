@@ -20,140 +20,25 @@
 
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Exo+2:300|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
 </head>
 
 <body>
 
     <div class="hero">
-        <br/><br/>
-        <ul class="navbar">
-            <li><a id="to-about" href="">About</a></li>
-            <li><a id="to-logistics" href="">Logistics</a></li>
-            <li><a id="to-sponsors" href="">Sponsors</a></li>
-        </ul>
-        <br/><br/><br/><br/>
-        <div class="hero-head">
-            <img id="hero-logo" src="img/logo-small.svg"/>
-            <br/>
-            StuyHacks
+
+        <h1 id="title">StuyHacks</h1>
+        <h3 id="subtitle">May 27 - May 28, 2017</h3>
+
+        <div class="page-directs">
+            <a href="#faq">Frequently Asked Questions</a> | <a href="#schedule">Schedule</a> | <a href="#sponsors">Sponsors</a>
         </div>
-        <p class="hero-subhead">
-            (venue T.B.D)<br>
-            May 27 - May 28 '17 <br>
-        </p>
 
-        <div class="hero-cta">
-            <!--
-            <a class="hero-cta-btn" href="">Hack</a>
-            <a class="hero-cta-btn" href="">Mentor</a>
-        -->
-            <br/><br/>
-            <img id="hero-arrow" src="img/hero-arrow.svg"/>
-            <br/><br/><br/>
-        </div>
+        <button class="btn-register">Register</button>
+
     </div>
 
-    <div class="about">
-        <center>
-            <br/><br/>
-            <p class="section-heading">Inspiring a new generation of makers</p>
-
-            <p class="section-content">
-                &emsp;&emsp;&emsp;
-                StuyHacks is a student-run hackathon taking place in the heart of Manhattan. We seek to expose as many high school students as possible to the creativity and innovation that technology brings. To us, <b>hackathons are more than friendly competitions</b> - they're opportunities to meet the great inventors, creators, and thinkers of the future. Our job is to eliminate the negative connotations that come with hacking and the technology field, and to instead replace them with the idea that coding <b>something anyone can do</b>, even in a weekend. We want to help trailblaze a new generation of diversity and enthusiasm for invention. Come join our movement.
-                <br />
-                <center id="content-bold">Get ready, get set, get HACKING!</center>
-                <br />
-            </p>
-        </center>
-    </div>
-
-    <div class="schedule">
-        <center>
-            <p class="section-heading">Schedule</p>
-        </center>
-            <p>To be announced.</p>
-            <!--update to 24 hrs
-            <p>8:30a - registration </p>
-            <p>9:30a - 10:00a - opening ceremonies and pitches</p>
-            <p>10:30a - hacking begins</p>
-            <p>10:30a - 11:30a - group formation, minimum viable product workshop</p>
-            <p>11:30a - 12:30p - prototyping tool workshop (Balsamiq, Invision, Proto)</p>
-            <p>1:00p - lunch</p>
-            <p>2:00p - 3:00p - entrepreneurship logistics (lean startup BMC: audience, channels, keys)</p>
-            <p>4:00p - 4:30p - perfect pitch workshop</p>
-            <p>6:00p - dinner</p>
-            <p>7:30p - hacking ends, submissions due</p>
-            <p>7:30p - 8:30p - judging</p>
-            <p>8:30p - 9:00p - prizes and closing ceremonies</p>
-        -->
-    </div>
-
-    <div class="sponsors">
-        <center>
-            <p class="section-heading">Sponsors</p>
-            <p class="section-content">
-                Do you want your company's name and logo on our program, t-shirts, banner, website, and more? If you want to have a chance at meeting some of the brightest high school students in New York City and making a real name for your organization, feel free to contact us for sponsorship opportunities! We offer a tiered sponsorship system so that you can choose the option that will best fit your company's interests and needs.
-            </p>
-            <br/>
-            <a id="guide" href="">Sponsorship Guide</a>
-            <br/>
-
-            <a class="sp-logo" href="http://www.stickeryou.com/2/products/custom-stickers/335?utm_source=HACKSTORY2&utm_medium=Sponsorship&utm_campaign=SPONSORSHIP-Sponsorship" target="_blank">
-                <img src="img/logo/stickeryou.png"/>
-            </a>
-            <a class="sp-logo" href="https://www.balsamiq.com/" target="_blank">
-                <img src="img/logo/balasmiq.png"/>
-            </a>
-            <a class="sp-logo" href="https://www.stickergiant.com/" target="_blank">
-                <img src="img/logo/stickergiant.png"/>
-            </a>
-
-        </center>
-    </div>
-
-    <div class="footer">
-        <center>
-            <a href="mailto: hello@stuyhacks.com">
-                <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
-            </a>
-            <a href="https://https://www.facebook.com/stuyhacks/?fref=ts">
-                <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
-            </a>
-            <a href="https://twitter.com/StuyHacks">
-                <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
-            </a>
-            <br>
-            &copy; 2017 StuyHacks
-            <br>
-            <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">Code of Conduct</a>
-        </center>
-    </div>
-
-    <script src="js/jquery.min.js"></script>
-    <script>
-    $("#hero-arrow").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".about").offset().top
-        }, 500);
-    });
-    $("#to-about").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".about").offset().top
-        }, 500);
-    });
-    $("#to-logistics").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".schedule").offset().top
-        }, 1000);
-    });
-    $("#to-sponsors").click(function() {
-        $('html, body').animate({
-            scrollTop: $(".sponsors").offset().top
-        }, 1500);
-    });
-    </script>
 </body>
+
 </html>
