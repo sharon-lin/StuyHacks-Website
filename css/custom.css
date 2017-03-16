@@ -151,10 +151,13 @@ input[ type=submit ]:hover {
     cursor: pointer !important;
 }
 
-.sponsors {
-    font-size: 13pt;
+.section {
+    font-size: 12pt;
     color: #fff;
-    line-height: 1.5em;
+    line-height: 1.4em;
+}
+
+.sponsors {
 }
 
 footer {
