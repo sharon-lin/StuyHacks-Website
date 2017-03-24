@@ -1,0 +1,49 @@
+@font-face {
+    font-family: brandon_reg;
+    src: url(../fonts17/Brandon_reg.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: brandon_bld;
+    src: url(../fonts17/Brandon_bld.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: adobe_caslon_reg;
+    src: url(../fonts17/adobe_caslon_reg.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: adobe_caslon_bld;
+    src: url(../fonts17/adobe_caslon_bld.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: avenir_next;
+    src: url(../fonts17/avenir_next.ttc);
+    font-weight: bold;
+}
+
+.sidebar {
+    display: block;
+    height: 100%;
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+}
+
+.content {
+    display: block;
+    height: 100%;
+    padding: 15px;
+    background-color:
+}
+
+#accented {
+    text-decoration: underline;
+    background-color: yellow;
+}
