@@ -38,9 +38,18 @@
 
 .content {
     display: block;
+    margin: 0;
+    padding: 0;
     height: 100%;
-    padding: 15px;
-    background-color:
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+        url(../img/people.jpg) no-repeat center center fixed;
+    -webkit-background-size: 115%;
+    -moz-background-size: 115%;
+    -o-background-size: 115%;
+    background-size: 115%;
 }
 
 #accented {
