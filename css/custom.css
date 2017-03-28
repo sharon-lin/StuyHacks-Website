@@ -139,7 +139,7 @@ body {
     display: inline-block;
     width: 20%;
     border: 2px solid #fff;
-    padding: 8px 30px 8px 30px;
+    padding: 5px 20px;
     background-color: transparent;
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
@@ -147,12 +147,18 @@ body {
     color: #fff;
 }
 
-.buttons a:hover {
-
-}
-
 .buttons #attendButton {
     margin-right: 10%;
+}
+
+@media (max-width: 648px) {
+    .buttons a {
+        padding:
+    }
+}
+
+@media (max-width: 992px) {
+
 }
 
 section {
