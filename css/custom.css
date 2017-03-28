@@ -1,58 +1,209 @@
 @font-face {
     font-family: brandon_reg;
-    src: url(../fonts17/Brandon_reg.otf);
+    src: url(../fonts/Brandon_reg.otf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: brandon_bld;
-    src: url(../fonts17/Brandon_bld.otf);
+    src: url(../fonts/Brandon_bld.otf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: adobe_caslon_reg;
-    src: url(../fonts17/adobe_caslon_reg.ttf);
+    src: url(../fonts/adobe_caslon_reg.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: adobe_caslon_bld;
-    src: url(../fonts17/adobe_caslon_bld.ttf);
+    src: url(../fonts/adobe_caslon_bld.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: avenir_next;
-    src: url(../fonts17/avenir_next.ttc);
+    src: url(../fonts/avenir_next.ttc);
     font-weight: bold;
 }
 
-.sidebar {
-    display: block;
-    height: 100%;
-    padding: 15px;
-    background-color: #fff;
-    color: #000;
+* {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #fff;
 }
 
-.content {
-    display: block;
+html {
     margin: 0;
     padding: 0;
-    height: 100%;
-    background: linear-gradient(
-            rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)
-        ),
-        url(../img/people.jpg) no-repeat center center fixed;
-    -webkit-background-size: 115%;
-    -moz-background-size: 115%;
-    -o-background-size: 115%;
-    background-size: 115%;
 }
 
-#accented {
-    text-decoration: underline;
-    background-color: yellow;
+body {
+    background-color: #05AFB3;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        width: 50%;
+        border-color: #fff;
+        border: 2px solid #fff;
+        border-top: none;
+        border-radius: 0px 0px 24px 24px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-nav li {
+        margin: 24px 0px;
+    }
+}
+
+.navbar {
+    background: #05AFB3;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav li a {
+    background-color: transparent;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li a:hover {
+    cursor: pointer;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:visited,
+.navbar-nav li a:active,
+.navbar-nav li a:focus {
+    background-color: transparent;
+}
+
+.navbar-nav li a #separator {
+    margin: 0px 15px;
+}
+
+.head {
+    margin-top: 100px;
+    font-family: 'Open Sans';
+    color: #fff;
+    font-weight: 300;
+}
+
+.head h1 {
+    font-weight: 300;
+}
+
+.head b {
+    font-weight: 400;
+}
+
+#head-img {
+    width: 225px;
+    height: auto;
+}
+
+#skyline {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.head-desc {
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.buttons {
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.buttons a {
+    display: inline-block;
+    width: 20%;
+    border: 2px solid #fff;
+    padding: 8px 30px 8px 30px;
+    background-color: transparent;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.buttons a:hover {
+
+}
+
+.buttons #attendButton {
+    margin-right: 10%;
+}
+
+section {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-header {
+    font-weight: 400 !important;
+    font-size: 30px !important;
+    text-align: center;
+    text-decoration: none;
+}
+.schedule {
+    width: 60%;
+    font-size: 24px;
+}
+
+#line {
+    display: block;
+    border-top: 2px solid #fff;
+}
+
+.schedule table {
+    width: 100%;
+}
+
+.schedule table tr td {
+    font-size: 24px;
+}
+.schedule table tr td:first-child {
+    text-align: left;
+}
+
+.schedule table tr td:nth-child(2) {
+    text-align: right;
+}
+.faq {
+}
+.faq center {
+    font-size: 18px;
+}
+.faq center div p {
+    text-align: left;
+}
+.faq center .block {
+    margin-bottom: 20px;
+}
+
+.sponsors center p{
+    text-decoration: none;
+    margin-bottom: 100px;
 }
