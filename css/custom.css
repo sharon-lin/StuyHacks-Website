@@ -213,3 +213,7 @@ section {
     text-decoration: none;
     margin-bottom: 100px;
 }
+
+.sponsors .sponsors-img img {
+    margin: 5px 0px;
+}
