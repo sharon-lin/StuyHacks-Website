@@ -151,6 +151,11 @@ body {
     margin-right: 10%;
 }
 
+.buttons a:hover, .button a:active {
+    background-color: #fff;
+    color: #05AFB3;
+}
+
 @media (max-width: 648px) {
     .buttons a {
         padding:
