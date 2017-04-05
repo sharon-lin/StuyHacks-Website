@@ -93,7 +93,7 @@ body {
 
 .navbar-nav li a:hover,
 .navbar-nav li a:active {
-    background-color: silver;
+    color: silver;
 }
 
 .navbar-nav li a #separator {
