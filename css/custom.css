@@ -86,11 +86,13 @@ body {
     cursor: pointer;
 }
 
-.navbar-nav li a:hover,
 .navbar-nav li a:visited,
-.navbar-nav li a:active,
 .navbar-nav li a:focus {
-    background-color: transparent;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+    color: silver;
 }
 
 .navbar-nav li a #separator {
@@ -161,6 +163,12 @@ body {
 
 .buttons #attendButton {
     margin-right: 10%;
+}
+
+.buttons a:hover, .button a:active {
+    background-color: #fff;
+    color: #05AFB3;
+    text-decoration: none;
 }
 
 @media (max-width: 648px) {
