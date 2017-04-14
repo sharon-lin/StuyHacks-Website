@@ -128,6 +128,18 @@ body {
     line-height: 30px;
 }
 
+.section-desc {
+    text-align: center;
+    font-size: 17px;
+}
+
+.section-desc a,
+.section-desc a:hover,
+.section-desc a:active,
+.section-desc a:visited {
+    color: red;
+}
+
 .buttons {
     margin: 40px 0px 20px 0px;
     text-align: center;
@@ -214,6 +226,45 @@ section {
     margin-bottom: 100px;
 }
 
+.sponsors .sponsors-img {
+    display: block;
+    margin: 0 auto;
+}
+
 .sponsors .sponsors-img img {
     margin: 5px 0px;
+}
+
+.sponsors {
+    width: 100%;
+    padding: 5%;
+    background: #fff;
+    margin-bottom: 5%;
+}
+
+.sponsors .section-header,
+.sponsors .section-desc {
+    color: #05AFB3;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.col-header {
+    font-size: 20px;
+}
+
+.col-line {
+    font-size: 17px;
+}
+
+.col-line i {
+    margin-right: 4px;
+}
+
+#address {
+    margin-left: 10px;
 }
