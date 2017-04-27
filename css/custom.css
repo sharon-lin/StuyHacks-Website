@@ -234,9 +234,11 @@ section {
     margin-bottom: 100px;
 }
 
-.sponsors .sponsors-img {
+.sponsors .sponsors-img,
+.sponsors .partners-img {
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 .sponsors .sponsors-img img {

@@ -183,7 +183,7 @@
      });
 
      // sponsors
-     var sponsorFiles = ['avaya.png', 'balasmiq.jpg', 'bny-mellon.png', 'comodo.png', 'facebook.png', 'princeton-review.png', 'rebel-mouse.png', 'redseal.png', 'telnet.png'];
+     var sponsorFiles = ['princeton-review.png', 'rebel-mouse.png'];
      var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
      for (var i = 0; i < sponsorFiles.length; i++) {
          var img = document.createElement('img');
@@ -194,11 +194,11 @@
      }
 
      // partners
-     var partnerFiles = [];
+     var partnerFiles = ['avaya.png', 'balasmiq.jpg', 'bny-mellon.png', 'comodo.png', 'facebook.png', 'redseal.png', 'telnet.png'];
      var partnerRow = document.getElementsByClassName('partners-img')[0];
      for (var i = 0; i < partnerFiles.length; i++) {
          var img = document.createElement('img');
-         img.setAttribute('src', 'img/partners/' + partnerFiles[i]);
+         img.setAttribute('src', 'img/sponsors/' + partnerFiles[i]);
          img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
          img.setAttribute('max-height', '75px');
          partnerRow.appendChild(img);
