@@ -136,6 +136,11 @@
         </section>
 
         <section class="sponsors">
+
+            <p class="section-header">Partners</p>
+            <div class="partners-img row">
+            </div>
+
             <p class="section-header">Sponsors</p>
             <p class="section-desc">
                 Interested in sponsoring StuyHacks? Send us a message at
@@ -144,9 +149,11 @@
             </p>
             <div class="sponsors-img row">
             </div>
+
         </section>
 
-        <footer><center>
+        <footer>
+            <center>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <p class="col-header"><b>StuyHacks</b></p>
@@ -160,30 +167,42 @@
                     <p class="col-line"><i class="fa fa-snapchat" aria-hidden="true"></i>StuyHacks</p>
                 </div>
             </div>
-       </center></footer>
+            </center>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
     <script>
-        // scrolling
-        $('li').click(function(e) {
-            var link = $(this).children('a');
-            e.preventDefault();
-            $('html,body').animate({
-                scrollTop: $(link.attr('href')).offset().top
-            }, 'slow');
-        });
+     // scrolling
+     $('li').click(function(e) {
+         var link = $(this).children('a');
+         e.preventDefault();
+         $('html,body').animate({
+             scrollTop: $(link.attr('href')).offset().top
+         }, 'slow');
+     });
 
-        // sponsors
-        var files = ['avaya.png', 'balasmiq.jpg', 'bny-mellon.png', 'comodo.png', 'facebook.png', 'princeton-review.png', 'rebel-mouse.png', 'redseal.png', 'telnet.png'];
-        var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
-        for (var i = 0; i < files.length; i++) {
-            var img = document.createElement('img');
-            img.setAttribute('src', 'img/sponsors/' + files[i]);
-            img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
-            img.setAttribute('max-height', '75px');
-            sponsorRow.appendChild(img);
-        }
+     // sponsors
+     var sponsorFiles = ['avaya.png', 'balasmiq.jpg', 'bny-mellon.png', 'comodo.png', 'facebook.png', 'princeton-review.png', 'rebel-mouse.png', 'redseal.png', 'telnet.png'];
+     var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
+     for (var i = 0; i < sponsorFiles.length; i++) {
+         var img = document.createElement('img');
+         img.setAttribute('src', 'img/sponsors/' + sponsorFiles[i]);
+         img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
+         img.setAttribute('max-height', '75px');
+         sponsorRow.appendChild(img);
+     }
+
+     // partners
+     var partnerFiles = [];
+     var partnerRow = document.getElementsByClassName('partners-img')[0];
+     for (var i = 0; i < partnerFiles.length; i++) {
+         var img = document.createElement('img');
+         img.setAttribute('src', 'img/partners/' + partnerFiles[i]);
+         img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
+         img.setAttribute('max-height', '75px');
+         partnerRow.appendChild(img);
+     }
     </script>
 </body>
 
