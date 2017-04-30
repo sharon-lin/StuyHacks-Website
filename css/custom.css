@@ -93,7 +93,7 @@ body {
 .navbar-nav li a:hover,
 .navbar-nav li a:active {
     color: #D3D3D3;
-    background-color: none !important;
+    background: none !important;
 }
 
 .navbar-nav li a #separator {
