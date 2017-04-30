@@ -88,6 +88,7 @@ body {
 
 .navbar-nav li a:visited,
 .navbar-nav li a:focus {
+    background: none !important;
 }
 
 .navbar-nav li a:hover,
