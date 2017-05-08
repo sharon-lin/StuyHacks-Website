@@ -239,12 +239,12 @@ section {
 .sponsors .sponsors-img,
 .sponsors .partners-img {
     display: block;
-    margin: 10 10;
     text-align: center;
 }
 
-.sponsors .sponsors-img img {
-    margin: 5px 0px;
+.sponsors .sponsors-img img,
+.sponsors .partners-img img {
+    padding: 5px;
 }
 
 .sponsors {
