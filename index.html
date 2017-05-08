@@ -142,13 +142,13 @@
             </div>
 
             <p class="section-header">Sponsors</p>
+            <div class="sponsors-img row">
+            </div>
             <p class="section-desc">
                 Interested in sponsoring StuyHacks? Send us a message at
                 <br>
                 <a href="mailto:hello@stuyhacks.com">hello@stuyhacks.com</a>.
             </p>
-            <div class="sponsors-img row">
-            </div>
 
         </section>
 
@@ -183,13 +183,14 @@
      });
 
      // sponsors
-     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg'];
+     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg', 'dottech.png', 'stuyalumni.jpg', 'core.jpg'];
      var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
      for (var i = 0; i < sponsorFiles.length; i++) {
          var img = document.createElement('img');
          img.setAttribute('src', 'img/sponsors/' + sponsorFiles[i]);
          img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
-         img.setAttribute('max-height', '75px');
+         img.setAttribute('max-width', '50px');
+         img.setAttribute('max-height', '50px');
          sponsorRow.appendChild(img);
      }
 
@@ -200,6 +201,7 @@
          var img = document.createElement('img');
          img.setAttribute('src', 'img/sponsors/' + partnerFiles[i]);
          img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
+         img.setAttribute('max-width', '75px');
          img.setAttribute('max-height', '75px');
          partnerRow.appendChild(img);
      }
