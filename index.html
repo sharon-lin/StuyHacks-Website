@@ -152,7 +152,7 @@
 
         </section>
 
-        <footer>
+        <footer class="contact-us">
             <center>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -183,12 +183,11 @@
      });
 
      // sponsors
-     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg', 'dottech.png', 'stuyalumni.jpg', 'core.jpg'];
+     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg', 'stickeryou.png', 'stickergiant.png','dottech.png', 'stuyalumni.jpg', 'core.jpg'];
      var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
      for (var i = 0; i < sponsorFiles.length; i++) {
          var img = document.createElement('img');
          img.setAttribute('src', 'img/sponsors/' + sponsorFiles[i]);
-         img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
          img.setAttribute('max-width', '50px');
          img.setAttribute('max-height', '50px');
          sponsorRow.appendChild(img);
@@ -200,7 +199,6 @@
      for (var i = 0; i < partnerFiles.length; i++) {
          var img = document.createElement('img');
          img.setAttribute('src', 'img/sponsors/' + partnerFiles[i]);
-         img.setAttribute('class','sponsor-img col-sm-6 col-md-3 col-lg-3');
          img.setAttribute('max-width', '75px');
          img.setAttribute('max-height', '75px');
          partnerRow.appendChild(img);

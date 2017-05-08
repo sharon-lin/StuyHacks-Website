@@ -244,11 +244,13 @@ section {
 
 .sponsors .partners-img img {
     padding: 5px;
-    max-height: 250px;
+    width: 400px;
+    max-height: 300px;
 }
 
 .sponsors .sponsors-img img {
     max-width: 180px;
+    max-height: 150px;
 }
 
 .sponsors {
