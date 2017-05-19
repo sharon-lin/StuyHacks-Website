@@ -209,6 +209,10 @@ section {
     width: 100%;
 }
 
+.schedule .sched-head {
+    font-weight: bold;
+}
+
 .schedule table tr td {
     display: inline-block;
     font-size: 24px;
