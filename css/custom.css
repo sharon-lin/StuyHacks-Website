@@ -210,15 +210,25 @@ section {
 }
 
 .schedule table tr td {
+    display: inline-block;
     font-size: 24px;
 }
 .schedule table tr td:first-child {
     text-align: left;
+    width: 68%;
 }
 
 .schedule table tr td:nth-child(2) {
     text-align: right;
+    width: 32%;
 }
+
+@media (max-width: 824px) {
+    .schedule {
+        width: 90%;
+    }
+}
+
 .faq {
 }
 .faq center {
