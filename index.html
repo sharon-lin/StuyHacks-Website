@@ -211,9 +211,7 @@
             <p class="section-header" style="font-size: 25px">Partners</p>
             <div class="partners-img row">
             </div>
-            
             <br />
-            
             <p class="section-header" style="font-size: 25px">Sponsors</p>
             <div class="sponsors-img row">
             </div>
@@ -258,25 +256,33 @@
 
      // sponsors
      var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg', 'stuy.png', 'stuyalumni.png', 'netspi.png', 'dottech.png', 'insomnia.png','stickergiant.png', 'stickeryou.png'];
+     var sponsorHrefs = ['https://www.blackrock.com/','http://princetonreview.com','https://www.rebelmouse.com/','https://balsamiq.com','http://stuy.enschool.org','www.stuyalumni.org','https://www.netspi.com/','https://get.tech','http://insomniacookies.com','https://www.stickergiant.com','https://www.stickeryou.com'];
      var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
      for (var i = 0; i < sponsorFiles.length; i++) {
+         var a = document.createElement('a');
+         a.setAttribute('href', sponsorHrefs[i]);
          var img = document.createElement('img');
          img.setAttribute('src', 'img/sponsors/' + sponsorFiles[i]);
          img.setAttribute('max-width', '50px');
          img.setAttribute('max-height', '50px');
          img.setAttribute('margin', '20px');
-         sponsorRow.appendChild(img);
+         a.appendChild(img);
+         sponsorRow.appendChild(a);
      }
 
      // partners
      var partnerFiles = ['bny-mellon.png', 'thoughtworks.png', 'mlh.png', 'comodo.png', 'core.jpg', 'facebook.png', 'redseal.png', 'telnet.png'];
+     var partnerHrefs = ['https://www.bnymellon.com/','https://www.thoughtworks.com/','https://mlh.io','https://www.comodo.com/','https://www.facebook.com','http://coresecurity.com','https://www.redseal.net','https://www.telnetworksusa.com'];
      var partnerRow = document.getElementsByClassName('partners-img')[0];
-     for (var i = 0; i < partnerFiles.length; i++) {
-         var img = document.createElement('img');
-         img.setAttribute('src', 'img/sponsors/' + partnerFiles[i]);
-         img.setAttribute('max-width', '75px');
-         img.setAttribute('max-height', '75px');
-         partnerRow.appendChild(img);
+         for (var i = 0; i < partnerFiles.length; i++) {
+             var a = document.createElement('a');
+             a.setAttribute('href', partnerHrefs[i]);
+             var img = document.createElement('img');
+             img.setAttribute('src', 'img/sponsors/' + partnerFiles[i]);
+             img.setAttribute('max-width', '75px');
+             img.setAttribute('max-height', '75px');
+         a.appendChild(img);
+         partnerRow.appendChild(a);
      }
     </script>
 </body>
