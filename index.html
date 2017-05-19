@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-md-4 col-lg-4 col-sm-12 block">
                     <p><b>Can we form teams?</b></p>
-                    <p>Of course you can! We encourage people to work in teams of up to 4 people. You can work alone, but it won't be the same. There will be plenty of team building events on site and online.</p>
+                    <p>Of course you can! Teams must have at least two people and at most four people. There will be plenty of team building events on site and online.</p>
                 </div>
                 <div class="col-md-4 col-lg-4 col-sm-12 block">
                     <p><b>Does it cost anything?</b></p>
@@ -208,16 +208,19 @@
 
         <section class="sponsors">
 
-            <p class="section-header">Partners</p>
+            <p class="section-header" style="font-size: 25px">Partners</p>
             <div class="partners-img row">
             </div>
-
-            <p class="section-header">Sponsors</p>
+            
+            <br />
+            
+            <p class="section-header" style="font-size: 25px">Sponsors</p>
             <div class="sponsors-img row">
             </div>
             <p class="section-desc">
+                <br />
                 Interested in sponsoring StuyHacks? Send us a message at
-                <br>
+                <br />
                 <a href="mailto:hello@stuyhacks.com">hello@stuyhacks.com</a>.
             </p>
 
@@ -254,18 +257,19 @@
      });
 
      // sponsors
-     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg', 'stickeryou.png', 'stickergiant.png','dottech.png', 'stuyalumni.jpg', 'core.jpg'];
+     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'balasmiq.jpg', 'stuy.png', 'stuyalumni.png', 'netspi.png', 'dottech.png', 'insomnia.png','stickergiant.png', 'stickeryou.png'];
      var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
      for (var i = 0; i < sponsorFiles.length; i++) {
          var img = document.createElement('img');
          img.setAttribute('src', 'img/sponsors/' + sponsorFiles[i]);
          img.setAttribute('max-width', '50px');
          img.setAttribute('max-height', '50px');
+         img.setAttribute('margin', '20px');
          sponsorRow.appendChild(img);
      }
 
      // partners
-     var partnerFiles = ['bny-mellon.png', 'comodo.png', 'facebook.png', 'redseal.png', 'telnet.png', 'thoughtworks.png'];
+     var partnerFiles = ['bny-mellon.png', 'thoughtworks.png', 'mlh.png', 'comodo.png', 'core.jpg', 'facebook.png', 'redseal.png', 'telnet.png'];
      var partnerRow = document.getElementsByClassName('partners-img')[0];
      for (var i = 0; i < partnerFiles.length; i++) {
          var img = document.createElement('img');
