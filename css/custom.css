@@ -216,7 +216,9 @@ section {
 .schedule table tr td {
     display: inline-block;
     font-size: 24px;
+    margin-top: 10px;
 }
+
 .schedule table tr td:first-child {
     text-align: left;
     width: 68%;
