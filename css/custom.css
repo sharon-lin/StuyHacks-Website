@@ -245,7 +245,7 @@ section {
     margin-bottom: 20px;
 }
 
-.sponsors center p{
+.sponsors center p {
     text-decoration: none;
     margin-bottom: 100px;
 }
@@ -254,6 +254,7 @@ section {
 .sponsors .partners-img {
     display: block;
     text-align: center;
+    padding: 10px;
 }
 
 .sponsors .partners-img img {
@@ -263,8 +264,9 @@ section {
 }
 
 .sponsors .sponsors-img img {
-    max-width: 180px;
+    max-width: 200px;
     max-height: 150px;
+    margin: 20px;
 }
 
 .sponsors {
