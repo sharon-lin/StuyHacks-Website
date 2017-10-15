@@ -10,10 +10,32 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
-
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
     </head>
 
     <body>
+        <script>
+        function goToByScroll(id){
+            // Remove "link" from the ID
+            id = id.replace("link", "");
+              // Scroll
+              console.log('scrolling to id', id);
+            $('html,body').animate({
+                scrollTop: $("#"+id).offset().top},
+                'slow');
+        }
+
+        $(".navbar-nav .nav-item a.nav-link").click(function(e) { 
+              // Prevent a page reload when a link is pressed
+            e.preventDefault(); 
+              // Call the scroll function
+            goToByScroll(this.id);           
+        });
+        </script>
+
         <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:5%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&amp;utm_medium=TrustBadge&amp;utm_campaign=na-2017&amp;utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.png" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,19 +46,19 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" id="aboutlink" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Join Us</a>
+                        <a class="nav-link" id="joinlink" href="#">Join Us</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" id="faqlink" href="#">FAQ</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="#">Schedule</a>
+                        <a class="nav-link" id="schedulelink" href="#">Schedule</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" href="#">Sponsors</a>
+                        <a class="nav-link" id="sponsorslink" href="#">Sponsors</a>
                     </li>
                 </ul>
             </div>
@@ -50,16 +72,16 @@
             <a href="register.html" id="day-of-info-btn">Register</a>
         </div>
 
-        <div class="content about">
+        <div class="content about" id="about">
             <div>
                 <h2 class="section-header">StuyHacks is a community that supports high-schoolers in tech.</h2>
-                <p class="description">StuyHacks is a student-run hackathon taking place in the heart of Manhattan. We seek to expose as many high school students as possible to the creativity and innovation that technology brings. To us, <b>hackathons are more than friendly competitions</b> - they're opportunities to meet the
-    great inventors, creators, and thinkers of the future. Our job is to eliminate the negative connotations that come with hacking and the technology field, and to instead replace them with the idea that <b>coding something anyone can do</b>, even in a weekend. We want to help trailblaze a new
+                <p class="description">StuyHacks is a student-run hackathon taking place in the heart of Manhattan. We seek to expose as many high school students as possible to the creativity and innovation that technology brings. To us, hackathons are more than friendly competitions - they're opportunities to meet the
+    great inventors, creators, and thinkers of the future. Our job is to eliminate the negative connotations that come with hacking and the technology field, and to instead replace them with the idea that coding something anyone can do, even in a weekend. We want to help trailblaze a new
     generation of diversity and enthusiasm for invention. Come join our movement.</p>
-                <p class="description"><b>Get ready, get set, get hacking!</b></p>
+                <p class="description">Get ready, get set, get hacking!</p>
             </div>
         </div>
-        <div class="content team">
+        <div class="content team" id="team">
             <div>
                 <h2 class="section-header">Our Directors</h2>
                 <table id="profiles">
@@ -70,7 +92,7 @@
                         <td class="bio">
                             <h5 class="name">Ashneel Das</h5>
                             <p class="position">Co-Executive Director</p>
-                            <p class="testimonial">"WHACK was the first hackathon I ever attended, and I couldn't have asked for a better first experience. The mentors were supportive and encouraging. People were working on fun projects, and everyone I spoke to seemed so happy to be there. I met awesome people and had a great time learning and creating."</p>
+                            <p class="testimonial">"I’m a senior at Stuyvesant High School who enjoys computer science and math! In my free time, I like to watch Buzzfeed videos (my favorite series is Worth It). I hope to have yet another amazing year of StuyHacks!"</p>
                         </td>
                     </tr>
                     <tr>
@@ -90,7 +112,9 @@
                         <td class="bio">
                             <h5 class="name">Jason Kao</h5>
                             <p class="position">Director of Design</p>
-                            <p class="testimonial">"WHACK was the first hackathon I ever attended, and I couldn't have asked for a better first experience. The mentors were supportive and encouraging. People were working on fun projects, and everyone I spoke to seemed so happy to be there. I met awesome people and had a great time learning and creating."</p>
+                            <p class="testimonial">"Hackathons are exhilarating. It is always a great story and a great project
+                            when I attend a well-organized one; I'm just here to spread the culture. In my free time,
+                            I hack, write my college applications 😩, and eat mints. Definitely come visit me at the hackathon!"</p>
                         </td>
                     </tr>
                     <tr>
@@ -100,42 +124,42 @@
                         <td class="bio">
                             <h5 class="name">Katie Wu</h5>
                             <p class="position">Director of Marketing</p>
-                            <p class="testimonial">"WHACK was the first hackathon I ever attended, and I couldn't have asked for a better first experience. The mentors were supportive and encouraging. People were working on fun projects, and everyone I spoke to seemed so happy to be there. I met awesome people and had a great time learning and creating."</p>
+                            <p class="testimonial">"I'm a junior at Stuyvesant High School who loves coding and design. When I'm not reading, sleeping, studying, or sleeping, you'll probably catch me working on InDesign while watching How I Met Your Mother. I love meeting new people and being able to spread creativity at events like StuyHacks!"</p>
                         </td>
                     </tr>
                 </table>
             </div>
         </div>
-        <div class="content join">
+        <div class="content join" id="join">
             <div>
                 <h2 class="section-header">Join Us</h2>
                 <div class="get-involved left">
                     <div id="hack">
                         <h4>Hack</h4>
                         <p>Registration is open until Nov 30, 2017.</p>
-                        <a href="/">Register To Hack</a>
+                        <a href="register.html">Register To Hack</a>
                     </div>
                     <div id="mentor">
                         <h4>Mentor</h4>
                         <p>Mentors play a huge role at WHACK. We're looking for mentors who are knowledgeable, passionate, and eager to offer guidance to join us! Apply by Jan. 31, 2017. </p>
-                        <a href="/">Learn More</a>
+                        <a href="/">Coming Soon</a>
                     </div>
                 </div>
                 <div class="get-involved right">
                     <div id="sponsor">
                         <h4>Sponsor</h4>
-                        <p>Our sponsors make WHACK possible each year. Thank you!</p>
-                        <a href="/">Learn More</a>
+                        <p>Our sponsors make StuyHacks possible each year. Thank you!</p>
+                        <a target="_blank" href="https://drive.google.com/a/stuy.edu/file/d/0BwdHid7KqXgfX3o3Y215VXc1Wkk/view?usp=sharing">Learn More</a>
                     </div>
                     <div id="volunteer">
                         <h4>Volunteer</h4>
                         <p>Our volunteers make WHACK possible each year. Thank you!</p>
-                        <a href="/">Learn More</a>
+                        <a href="/">Coming Soone</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="content faq">
+        <div class="content faq" id="faq">
             <div>
                 <h2 class="section-header">Frequently Asked Questions</h2>
                 <div class="qa-column qa-column-left">
@@ -184,15 +208,15 @@
                 </div>
             </div>
         </div>
-        <div class="content schedule">
+        <div class="content schedule" id="schedule">
             <div>
                 <h2 class="section-header">Schedule T.B.D.</h2>
             </div>
         </div>
-        <div class="content sponsors">
+        <div class="content sponsors" id="sponsors">
             <div>
                 <h2 class="section-header">Sponsors</h2>
-                <p id="desc">Interested in sponsoring? <a href="https://drive.google.com/a/stuy.edu/file/d/0BwdHid7KqXgfX3o3Y215VXc1Wkk/view?usp=sharing">Learn more here.</a></p>
+                <p id="desc">Interested in sponsoring? <a target="_blank" href="https://drive.google.com/a/stuy.edu/file/d/0BwdHid7KqXgfX3o3Y215VXc1Wkk/view?usp=sharing">Learn more here.</a></p>
                 <h4 class=""
             </div>
         </div>
