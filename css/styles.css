@@ -442,6 +442,7 @@ a:hover {
     background: #DEDAF2;
     position: relative;
     z-index: 4;
+    color: #171f31;
 }
 
 .content.schedule:after {
