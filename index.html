@@ -1,299 +1,203 @@
-<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<!-- https://guide.mlh.io/Organizer-Timeline/4-Months-Before/Set-Up-A-Placeholder-Website.html  -->
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>StuyHacks</title>
-    <meta name="description" content="StuyHacks is a student-run hackathon taking place in the heart of TriBeCa, Manhattan. We seek to expose as many high school students as possible to the creativity and innovation that technology brings."/>
-    <meta name="keywords" content="StuyHacks, Hackathon, Student-run, High School, StuyHacks, Stuyvesant, Stuyvesant High School, Stuyvesant Hackathon, Stuy Hacks, New York City Hackathon, Hackathons 2017, High School Hackathon 2017" />
-    <meta name="author" content="StuyHacks">
-    <meta property="og:site_name" content="StuyHacks"/>
-    <meta property="og:title" content="StuyHacks"/>
-    <meta property="og:description" content="StuyHacks is a student-run hackathon taking place in the heart of TriBeCa, Manhattan. We seek to expose as many high school students as possible to the creativity and innovation that technology brings."/>
-    <meta property="og:image" content="http://stuyhacks.com/img/hero-new.jpg">
-    <meta property="og:url" content="http://stuyhacks.com/">
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>StuyHacks</title>
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-</head>
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
-    <div class="content">
-        <center>
-            <nav class="navbar navbar-fixed-top" role="navigation">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav">
-                        <li id="trigger-home"><a href=".home">Home<span id="separator">-</span></a></li>
-                        <li id="trigger-schedule"><a href=".schedule">Schedule<span id="separator">-</span></a></li>
-                        <li id="trigger-faq"><a href=".faq">FAQ<span id="separator">-</span></a></li>
-                        <li id="trigger-sponsors"><a href=".sponsors">Sponsors<span id="separator">-</span></a></li>
-                        <li id="trigger-contact-us"><a href=".contact-us">Contact us</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </nav>
-        </center>
-        <center class="head home">
-            <img id="head-img" src="img/logo.png">
-            <h1>Stuy<b>Hacks</b> Spring 2017 has ended!</h1>
-            <p class="head-desc">Thank you to all our hackers!</p>
-            <div class="buttons row">
-                <div class="col-sm-3 col-md-3 col-lg-3"></div>
-                <a class="col-md-3 col-lg-3 col-sm-12" id="attendButton" href="https://stuyhacks1.typeform.com/to/weParL" target="_blank">Attend</a>
-                <a class="col-md-3 col-lg-3 col-sm-12" href="https://stuyhacks1.typeform.com/to/YoYXuP">Mentor</a>
-                <div class="col-sm-3 col-md-3 col-lg-3"></div>
+    <head>
+        <title>StuyHacks</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+    </head>
+
+    <body>
+        <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:5%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&amp;utm_medium=TrustBadge&amp;utm_campaign=na-2017&amp;utm_content=white" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.png" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">S5</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join Us</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#">Schedule</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#">Sponsors</a>
+                    </li>
+                </ul>
             </div>
-            <img id="skyline" style="width: 100%" src="img/skyline.png">
-        </center>
-        <section class="schedule">
-                <p class="section-header">Schedule</p>
-                <p class="sched-head">Saturday</p>
-                <div id="line"></div>
-                <table>
+        </nav>
+
+        <div id="hero">
+            <img src="./img/snake.png" id="logo"/>
+            <p class="subtitle">StuyHacks Presents</p>
+            <h1 id="branding">Local Hack Day</h1>
+            <p class="date">December 2, 2017 at Stuyvesant High School</p>
+            <a href="register.html" id="day-of-info-btn">Register</a>
+        </div>
+
+        <div class="content about">
+            <div>
+                <h2 class="section-header">StuyHacks is a community that supports high-schoolers in tech.</h2>
+                <p class="description">StuyHacks is a student-run hackathon taking place in the heart of Manhattan. We seek to expose as many high school students as possible to the creativity and innovation that technology brings. To us, <b>hackathons are more than friendly competitions</b> - they're opportunities to meet the
+    great inventors, creators, and thinkers of the future. Our job is to eliminate the negative connotations that come with hacking and the technology field, and to instead replace them with the idea that <b>coding something anyone can do</b>, even in a weekend. We want to help trailblaze a new
+    generation of diversity and enthusiasm for invention. Come join our movement.</p>
+                <p class="description"><b>Get ready, get set, get hacking!</b></p>
+            </div>
+        </div>
+        <div class="content team">
+            <div>
+                <h2 class="section-header">Our Directors</h2>
+                <table id="profiles">
                     <tr>
-                        <td>Registration</td>
-                        <td>8:30a</td>
+                        <td class="pfp">                            
+                            <img src="https://www.w3schools.com/css/img_forest.jpg" class="img-thumbnail"/>
+                        </td>
+                        <td class="bio">
+                            <h5 class="name">Ashneel Das</h5>
+                            <p class="position">Co-Executive Director</p>
+                            <p class="testimonial">"WHACK was the first hackathon I ever attended, and I couldn't have asked for a better first experience. The mentors were supportive and encouraging. People were working on fun projects, and everyone I spoke to seemed so happy to be there. I met awesome people and had a great time learning and creating."</p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Breakfast</td>
-                        <td>8:30a - 9:00a</td>
+                        <td class="pfp">
+                            <img src="https://www.w3schools.com/css/img_forest.jpg" class="img-thumbnail"/>
+                        </td>
+                        <td class="bio">
+                            <h5 class="name">Joyce Wu</h5>
+                            <p class="position">Co-Executive Director</p>
+                            <p class="testimonial">"I am a senior at Stuyvesant High School. When I'm not coding or running, you can find me eating my two favorite foods: sweet potato fries and mushrooms (but together!). I am also an art fanatic. I enjoy studying the intersection between art and computer science, and looks forward to an awesome year of StuyHacks!"</p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Opening Ceremonies</td>
-                        <td>9:00a - 10:00a</td>
+                        <td class="pfp">
+                            <img src="https://www.w3schools.com/css/img_forest.jpg" class="img-thumbnail"/>
+                        </td>
+                        <td class="bio">
+                            <h5 class="name">Jason Kao</h5>
+                            <p class="position">Director of Design</p>
+                            <p class="testimonial">"WHACK was the first hackathon I ever attended, and I couldn't have asked for a better first experience. The mentors were supportive and encouraging. People were working on fun projects, and everyone I spoke to seemed so happy to be there. I met awesome people and had a great time learning and creating."</p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Hacking Begins!</td>
-                        <td>10:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Team Building Exercises</td>
-                        <td>10:15a - 11:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 1: A New Emerging Field: Cybersecurity Now and the Future hosted by RedSeal</td>
-                        <td>10:15a - 11:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 2: Introduction to Java by Aman Luthra</td>
-                        <td>11:00a - 12:00p</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 3: Diversity and Educational Initiatives hosted by Facebook</td>
-                        <td>12:00p - 1:00p</td>
-                    </tr>
-                    <tr>
-                        <td>Lunch</td>
-                        <td>1:00p - 2:00p</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 4: Introduction to Android Development by Shakil Rafi</td>
-                        <td>2:00p - 3:00p</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 5: Advanced Python Techniques by Krzysztof Hochlewicz</td>
-                        <td>3:00p - 4:00p</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 6: How to Break Into Tech hosted by Make School</td>
-                        <td>4:00p - 4:30p</td>
-                    </tr>
-                    <tr>
-                        <td>Cybersecurity (CTF) Challenge hosted by White Hat Academy</td>
-                        <td>4:30p - 6:30p</td>
-                    </tr>
-                    <tr>
-                        <td>Dinner</td>
-                        <td>6:30p - 7:30p</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 7: Introduction to Arduino by James Chin</td>
-                        <td>7:30p - 8:30p</td>
-                    </tr>
-                    <tr>
-                        <td>Slideshow Karaoke hosted by Major League Hacking</td>
-                        <td>9:00p - 10:00p</td>
+                        <td class="pfp">
+                            <img src="https://www.w3schools.com/css/img_forest.jpg" class="img-thumbnail"/>
+                        </td>
+                        <td class="bio">
+                            <h5 class="name">Katie Wu</h5>
+                            <p class="position">Director of Marketing</p>
+                            <p class="testimonial">"WHACK was the first hackathon I ever attended, and I couldn't have asked for a better first experience. The mentors were supportive and encouraging. People were working on fun projects, and everyone I spoke to seemed so happy to be there. I met awesome people and had a great time learning and creating."</p>
+                        </td>
                     </tr>
                 </table>
-                <br>
-                <p class="sched-head">Sunday</p>
-                <div id="line"></div>
-                <table>
-                    <tr>
-                        <td>Midnight Snacks</td>
-                        <td>11:00p - 12:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Sleep Preparations</td>
-                        <td>12:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Breakfast</td>
-                        <td>7:00a - 8:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Workshop 8: Crafting an Effective Pitch by Sharon Lin</td>
-                        <td>8:00a - 9:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Hacking Ends!</td>
-                        <td>9:30am</td>
-                    </tr>
-                    <tr>
-                        <td>Project Expo & Judging</td>
-                        <td>10:00a - 11:00a</td>
-                    </tr>
-                    <tr>
-                        <td>Closing Ceremonies</td>
-                        <td>11:30a - 12:00p</td>
-                    </tr>
-                </table>
-        </section>
-        <br><br>
-        <section class="faq">
-            <center>
-                <p class="section-header">Frequently Asked Questions</p>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>How can I attend?</b></p>
-                    <p>All you need to do is fill out our application form! We'll send you an email if you're accepted.</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Who's coming?</b></p>
-                    <p>We expect 200 hackers from high schools all over the tri-state area to be attending StuyHacks.</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Who can attend?</b></p>
-                    <p>All students! Even though the hackathon is only for high schoolers, if you're in college or above, you can still apply to be one of our amazing mentors <a style="text-decoration:underline;color:#fff;" href="https://stuyhacks1.typeform.com/to/YoYXuP">at this link!</a>
-                    </p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Do I need experience?</b></p>
-                    <p>No experience necessary. We will have plenty of mentors and resources. Come, learn, and experience your first hackathon at StuyHacks!</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Are there any rules?</b></p>
-                    <p>We want to ensure a positive experience for every participant. We encourage you to read our Code of Conduct.</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>What should I bring?</b></p>
-                    <p>You should bring your laptop, phone, chargers, and sleeping bag. All food and other accommodations will be taken care of.</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Can we form teams?</b></p>
-                    <p>Of course you can! Teams must have at least two people and at most four people. There will be plenty of team building events on site and online.</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Does it cost anything?</b></p>
-                    <p>StuyHacks is 100% free. You won't have to spend a dime!</p>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-12 block">
-                    <p><b>Will there be travel reimbursements?</b></p>
-                    <p>Unfortunately, we will not be providing travel reimbursements this StuyHacks.</p>
-                </div>
-            </center>
-        </section>
-
-        <section class="fill">
-            <p class="section-header" style="color: #05AFB3">Fill</p>
-        </section>
-
-        <section class="sponsors">
-
-            <p class="section-header" style="font-size: 25px">Partners</p>
-            <div class="partners-img row">
             </div>
-            <br />
-            <p class="section-header" style="font-size: 25px">Sponsors</p>
-            <div class="sponsors-img row">
-            </div>
-            <p class="section-desc">
-                <br />
-                Interested in sponsoring StuyHacks? Send us a message at
-                <br />
-                <a href="mailto:hello@stuyhacks.com">hello@stuyhacks.com</a>.
-            </p>
-
-        </section>
-
-        <footer class="contact-us">
-            <center>
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <p class="col-header"><b>StuyHacks</b></p>
-                    <p class="col-line"><i class="fa fa-map-marker" aria-hidden="true"></i>99 Madison Avenue<br><span id="address">New York, NY 10016</span></p>
-                    <p class="col-line"><i class="fa fa-envelope" aria-hidden="true"></i>hello@stuyhacks.com</p>
+        </div>
+        <div class="content join">
+            <div>
+                <h2 class="section-header">Join Us</h2>
+                <div class="get-involved left">
+                    <div id="hack">
+                        <h4>Hack</h4>
+                        <p>Registration is open until Nov 30, 2017.</p>
+                        <a href="/">Register To Hack</a>
+                    </div>
+                    <div id="mentor">
+                        <h4>Mentor</h4>
+                        <p>Mentors play a huge role at WHACK. We're looking for mentors who are knowledgeable, passionate, and eager to offer guidance to join us! Apply by Jan. 31, 2017. </p>
+                        <a href="/">Learn More</a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <p class="col-header"><b>Connect with Us!</b></p>
-                    <p class="col-line"><i class="fa fa-facebook" aria-hidden="true"></i>StuyHacks</p>
-                    <p class="col-line"><i class="fa fa-twitter" aria-hidden="true"></i>@StuyHacks</p>
-                    <p class="col-line"><i class="fa fa-snapchat" aria-hidden="true"></i>StuyHacks</p>
+                <div class="get-involved right">
+                    <div id="sponsor">
+                        <h4>Sponsor</h4>
+                        <p>Our sponsors make WHACK possible each year. Thank you!</p>
+                        <a href="/">Learn More</a>
+                    </div>
+                    <div id="volunteer">
+                        <h4>Volunteer</h4>
+                        <p>Our volunteers make WHACK possible each year. Thank you!</p>
+                        <a href="/">Learn More</a>
+                    </div>
                 </div>
             </div>
-            </center>
-        </footer>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-    <script>
-     // scrolling
-     $('li').click(function(e) {
-         var link = $(this).children('a');
-         e.preventDefault();
-         $('html,body').animate({
-             scrollTop: $(link.attr('href')).offset().top
-         }, 'slow');
-     });
-
-     // sponsors
-     var sponsorFiles = ['blackrock.png', 'princeton-review.png', 'rebel-mouse.png', 'makeschool.jpg', 'balasmiq.png', 'stuy.png', 'stuyalumni.png', 'netspi.png', 'dottech.png', 'insomnia.png','stickergiant.png', 'stickeryou.png'];
-     var sponsorHrefs = ['https://www.blackrock.com/','http://princetonreview.com','https://www.rebelmouse.com/', 'https://www.makeschool.com/', 'https://balsamiq.com','http://stuy.enschool.org','http://www.stuyalumni.org','https://www.netspi.com/','https://get.tech','http://insomniacookies.com','https://www.stickergiant.com','https://www.stickeryou.com'];
-     var sponsorRow = document.getElementsByClassName('sponsors-img')[0];
-     for (var i = 0; i < sponsorFiles.length; i++) {
-         var a = document.createElement('a');
-         a.setAttribute('href', sponsorHrefs[i]);
-         var img = document.createElement('img');
-         img.setAttribute('src', 'img/sponsors/' + sponsorFiles[i]);
-         img.setAttribute('max-width', '50px');
-         img.setAttribute('max-height', '50px');
-         img.setAttribute('margin', '20px');
-         a.appendChild(img);
-         sponsorRow.appendChild(a);
-     }
-
-     // partners
-     var partnerFiles = ['bny-mellon.png', 'thoughtworks.png', 'mlh.png', 'comodo.png', 'core.jpg', 'facebook.png', 'redseal.png', 'telnet.png'];
-     var partnerHrefs = ['https://www.bnymellon.com/','https://www.thoughtworks.com/','https://mlh.io','https://www.comodo.com/','http://coresecurity.com','https://www.facebook.com','https://www.redseal.net','https://www.telnetworksusa.com'];
-     var partnerRow = document.getElementsByClassName('partners-img')[0];
-         for (var i = 0; i < partnerFiles.length; i++) {
-             var a = document.createElement('a');
-             a.setAttribute('href', partnerHrefs[i]);
-             var img = document.createElement('img');
-             img.setAttribute('src', 'img/sponsors/' + partnerFiles[i]);
-             img.setAttribute('max-width', '75px');
-             img.setAttribute('max-height', '75px');
-         a.appendChild(img);
-         partnerRow.appendChild(a);
-     }
-    </script>
-</body>
-
+        </div>
+        <div class="content faq">
+            <div>
+                <h2 class="section-header">Frequently Asked Questions</h2>
+                <div class="qa-column qa-column-left">
+                    <div class="qa">
+                        <h5>What is a hackathon?</h5>
+                        <p>It’s a grand gathering of people to make their ideas come to life. Think out of the box, try new technologies, ask questions, make mistakes, discover a new language, and have fun!</p>
+                    </div>
+                    <div class="qa">
+                        <h5>What if I am a beginner?</h5>
+                        <p>That’s absolutely fine! We encourage beginners to join us. Get psyched to learn a ton from our mentors and have a blast with your teammates!</p>
+                    </div>
+                    <div class="qa">
+                        <h5>Do I need to have a finished project by the end?</h5>
+                        <p>Your goal should be to have a finished or almost complete project by Sunday. However, StuyHacks is ultimately a learning experience, so don't sweat it too much if you can't finish.</p>
+                    </div>
+                    <div class="qa">
+                        <h5>What should I bring?</h5>
+                        <p>You should bring your laptop, phone, chargers, and sleeping bag. All food and other accommodations will be taken care of.</p>
+                    </div>
+                    <div class="qa">
+                        <h5>Who's coming?</h5>
+                        <p>We expect 300 hackers from high schools all over the tri-state area to be attending StuyHacks.</p>
+                    </div>
+                </div>
+                <div class="qa-column qa-column-right">
+                    <div class="qa">
+                        <h5>Who can attend?</h5>
+                        <p>All students! Even though the hackathon is only for high schoolers, if you're in college or above, you can still apply to be one of our amazing mentors or volunteers!</p>
+                    </div>
+                    <div class="qa">
+                        <h5>What should I bring?</h5>
+                        <p>It’s a grand gathering of people to make their ideas come to life. Think out of the box, try new technologies, ask questions, make mistakes, discover a new language, and have fun!</p>
+                    </div>
+                    <div class="qa">
+                        <h5>When is the deadline to register?</h5>
+                        <p>It’s a grand gathering of people to make their ideas come to life. Think out of the box, try new technologies, ask questions, make mistakes, discover a new language, and have fun!</p>
+                    </div>
+                    <div class="qa">
+                        <h5>Do I have to hack with a team?</h5>
+                        <p>Nope, you're welcome to hack on your own! However, only teams with 2-5 people are eligible to win prizes.</p>
+                    </div>
+                    <div class="qa">
+                        <h5>Have other questions?</h5>
+                        <p>Send us an email at hello@stuyhacks.com or tweet at us @stuyhacks!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content schedule">
+            <div>
+                <h2 class="section-header">Schedule T.B.D.</h2>
+            </div>
+        </div>
+        <div class="content sponsors">
+            <div>
+                <h2 class="section-header">Sponsors</h2>
+                <p id="desc">Interested in sponsoring? <a href="https://drive.google.com/a/stuy.edu/file/d/0BwdHid7KqXgfX3o3Y215VXc1Wkk/view?usp=sharing">Learn more here.</a></p>
+                <h4 class=""
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </body>
 </html>
