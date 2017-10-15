@@ -108,7 +108,8 @@ a:hover {
 .navbar-brand:hover,
 .navbar-brand:active,
 .navbar-nav .nav-item .nav-link:hover,
-.navbar-nav .nav-item .nav-link:active {
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus {
     color: #fff !important;
 }
 
@@ -429,6 +430,15 @@ a:hover {
 
 
 
+
+
+.content.sponsors {
+    background: #DEDAF2;
+    position: relative;
+    z-index: 4;
+    color: #171f31;
+}
+
 .content.sponsors > div {
     width: 760px;
     margin: 0 auto;
@@ -438,14 +448,12 @@ a:hover {
     margin-bottom: 55px;
 }
 
-.content.sponsors {
-    background: #DEDAF2;
-    position: relative;
-    z-index: 4;
-    color: #171f31;
+.content.sponsors #desc {
+    font-size: 19px;
 }
 
-.content.schedule:after {
+/*
+.content.sponsors:after {
   background: inherit;
   bottom: 0;
   content: '';
@@ -458,3 +466,4 @@ a:hover {
   transform-origin: 100%;
   z-index: -1;
 }
+*/
