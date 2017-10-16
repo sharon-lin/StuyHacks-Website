@@ -133,7 +133,7 @@ a:hover {
 }
 
 .content {
-    padding: 185px 0 110px 0;
+    padding: 125px 0 70px 0;
 }
 
 .content div {
@@ -142,7 +142,7 @@ a:hover {
 
 .content div .section-header {
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: 1em !important;
     font-size: 46px;
 }
 
@@ -173,6 +173,7 @@ a:hover {
 
 .content.about .description {
     font-size: 20px;
+    margin-bottom: 20px;
     line-height: 30px;
     color: #e4e5ea;
     font-weight: 300;
