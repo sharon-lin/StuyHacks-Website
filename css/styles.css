@@ -94,6 +94,7 @@ a:hover {
     background: #49587A;
 }
 
+
 .navbar-nav .nav-item {
     margin: 0 7px;
 }
@@ -247,6 +248,35 @@ a:hover {
 
     .content.team #profiles tr .bio {
         width: 57%;
+    }
+
+    .content.team #profiles tr .pfp img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 576px) {
+    .content.team .section-header {
+
+    }
+    .content.team div > * {
+        width: 95%;
+        margin: 0 auto;
+        color: #171f31;
+        text-align: center;
+    }
+
+    .content.team #profiles tr td {
+        display: block;
+        padding: 6px;
+    }
+
+    .content.team #profiles tr .pfp {    
+        width: 100%;
+    }
+
+    .content.team #profiles tr .bio {
+        width: 100%;
     }
 
     .content.team #profiles tr .pfp img {
@@ -466,6 +496,7 @@ a:hover {
         display: block;
         width: 100%;
         vertical-align: top;
+        padding-right: 0;
     }
 }
 
