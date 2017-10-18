@@ -218,6 +218,8 @@ a:hover {
     padding: 6px;
 }
 
+.content.team #profiles tr 
+
 .content.team #profiles tr .pfp {    
     width: 40%;
 }
@@ -226,7 +228,13 @@ a:hover {
     width: 57%;
 }
 
-.content.team #profiles tr .pfp img {
+.content.team #profiles tr .pfp .pfp-container {
+    width: 280px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.content.team #profiles tr .pfp .pfp-container img {
     width: 95%;
 }
 
