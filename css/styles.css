@@ -147,6 +147,9 @@ a:hover {
     font-size: 46px;
 }
 
+/*****
+ABOUT
+*****/
 .content.about {
     background: #2a3b59;
     position: relative;
@@ -187,113 +190,14 @@ a:hover {
     font-weight: 300;
 }
 
-.content.team {
-    background: #DEDAF2;
+/*****
+JOIN US
+*****/
+
+.content.join {
+    background: #4a4e6c;
     position: relative;
     z-index: 8;
-}
-
-.content.team:after {
-  background: inherit;
-  bottom: 0;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  transform: skewY(-2.5deg);
-  transform-origin: 100%;
-  z-index: -1;
-}
-
-.content.team div > * {
-    width: 760px;
-    margin: 0 auto;
-    color: #171f31;
-}
-
-.content.team #profiles tr td {
-    display: inline-block;
-    padding: 6px;
-}
-
-.content.team #profiles tr 
-
-.content.team #profiles tr .pfp {    
-    width: 40%;
-}
-
-.content.team #profiles tr .bio {
-    width: 57%;
-}
-
-.content.team #profiles tr .pfp .pfp-container {
-    width: 280px;
-    height: 190px;
-    overflow: hidden;
-}
-
-.content.team #profiles tr .pfp .pfp-container img {
-    width: 95%;
-}
-
-@media (max-width: 768px) {
-    .content.team div > * {
-        width: 95%;
-        margin: 0 auto;
-        color: #171f31;
-    }
-
-    .content.team #profiles tr td {
-        display: inline-block;
-        padding: 6px;
-    }
-
-    .content.team #profiles tr .pfp {    
-        width: 40%;
-    }
-
-    .content.team #profiles tr .bio {
-        width: 57%;
-    }
-
-    .content.team #profiles tr .pfp img {
-        width: 95%;
-    }
-}
-
-@media (max-width: 576px) {
-    .content.team .section-header {
-
-    }
-    .content.team div > * {
-        width: 95%;
-        margin: 0 auto;
-        color: #171f31;
-        text-align: center;
-    }
-
-    .content.team #profiles tr td {
-        display: block;
-        padding: 6px;
-    }
-
-    .content.team #profiles tr .pfp {    
-        width: 100%;
-    }
-
-    .content.team #profiles tr .bio {
-        width: 100%;
-    }
-
-    .content.team #profiles tr .pfp img {
-        width: 95%;
-    }
-}
-
-.content.team .section-header {
-    margin-bottom: 40px;
 }
 
 .content.join > div {
@@ -320,32 +224,8 @@ a:hover {
     }
 }
 
-#profiles tr {
-    display: block;
-    margin-bottom: 25px;
-}
-
-#profiles tr .name {
-    margin-bottom: .2em;
-}
-
-#profiles tr .position {
-    font-weight: 500;
-    margin-bottom: .65em;
-}
-
-#profiles tr .testimonial {
-    font-size: 16px;
-}
-
-.join .section-header {
+.content.join .section-header {
     margin-bottom: 55px;
-}
-
-.content.join {
-    background: #2a3b59;
-    position: relative;
-    z-index: 7;
 }
 
 .content.join:after {
@@ -430,6 +310,15 @@ a:hover {
     }
 }
 
+/*****
+FAQ
+*****/
+.content.faq {
+    background: #DEDAF2;
+    position: relative;
+    z-index: 7;
+}
+
 .content.faq > div {
     width: 760px;
     margin: 0 auto;
@@ -445,12 +334,7 @@ a:hover {
 
 .content.faq .section-header {
     margin-bottom: 55px;
-}
-
-.content.faq {
-    background: #4a4e6c;
-    position: relative;
-    z-index: 6;
+    color: #4a4e6c;
 }
 
 .content.faq:after {
@@ -475,15 +359,14 @@ a:hover {
 
 .qa-column > .qa {
     margin-bottom: 30px;
-    border: 2px solid #CAC5BE;
+    border: 2px solid #4a4e6c;
     border-radius: 5px;
-    color: #E4E5EA;
+    color: #4a4e6c !important;
     padding: 40px 30px;
     width: 100%;
 }
 
 .qa-column > .qa > h5 {
-    color: #fff;
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 30px;
@@ -493,7 +376,6 @@ a:hover {
     margin-bottom: 2em;
     font-size: 16px;
     line-height: 27px;
-    color: #fff;
 }
 
 @media (max-width: 576px) {
@@ -506,6 +388,16 @@ a:hover {
         vertical-align: top;
         padding-right: 0;
     }
+}
+
+/*****
+SCHEDULE
+*****/
+
+.content.schedule {
+    background: #2a3b59;
+    position: relative;
+    z-index: 6;
 }
 
 .content.schedule > div {
@@ -523,12 +415,6 @@ a:hover {
     margin-bottom: 55px;
 }
 
-.content.schedule {
-    background: #2a3b59;
-    position: relative;
-    z-index: 5;
-}
-
 .content.schedule:after {
   background: inherit;
   bottom: 0;
@@ -543,11 +429,137 @@ a:hover {
   z-index: -1;
 }
 
+/*****
+TEAM
+*****/
+.content.team {
+    background: #4a4e6c;
+    position: relative;
+    z-index: 5;
+}
 
+.content.team:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-2.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
 
+.content.team div > * {
+    width: 760px;
+    margin: 0 auto;
+    color: #fff;
+}
 
+.content.team #profiles tr td {
+    display: inline-block;
+    padding: 6px;
+}
 
+.content.team #profiles tr 
 
+.content.team #profiles tr .pfp {    
+    width: 40%;
+}
+
+.content.team #profiles tr .bio {
+    width: 57%;
+}
+
+.content.team #profiles tr .pfp .pfp-container {
+    width: 280px;
+    height: 190px;
+    overflow: hidden;
+}
+
+.content.team #profiles tr .pfp .pfp-container img {
+    width: 95%;
+}
+
+@media (max-width: 768px) {
+    .content.team div > * {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .content.team #profiles tr td {
+        display: inline-block;
+        padding: 6px;
+    }
+
+    .content.team #profiles tr .pfp {    
+        width: 40%;
+    }
+
+    .content.team #profiles tr .bio {
+        width: 57%;
+    }
+
+    .content.team #profiles tr .pfp img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 576px) {
+    .content.team .section-header {
+
+    }
+    .content.team div > * {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .content.team #profiles tr td {
+        display: block;
+        padding: 6px;
+    }
+
+    .content.team #profiles tr .pfp {    
+        width: 100%;
+    }
+
+    .content.team #profiles tr .bio {
+        width: 100%;
+    }
+
+    .content.team #profiles tr .pfp img {
+        width: 95%;
+    }
+}
+
+.content.team .section-header {
+    margin-bottom: 40px;
+}
+
+#profiles tr {
+    display: block;
+    margin-bottom: 25px;
+}
+
+#profiles tr .name {
+    margin-bottom: .2em;
+}
+
+#profiles tr .position {
+    font-weight: 500;
+    margin-bottom: .65em;
+}
+
+#profiles tr .testimonial {
+    font-size: 16px;
+}
+
+/*****
+SPONSORS
+*****/
 
 .content.sponsors {
     background: #DEDAF2;
