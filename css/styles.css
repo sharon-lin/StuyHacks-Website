@@ -314,7 +314,7 @@ JOIN US
 FAQ
 *****/
 .content.faq {
-    background: #DEDAF2;
+    background: #2a3b59;
     position: relative;
     z-index: 7;
 }
@@ -334,7 +334,7 @@ FAQ
 
 .content.faq .section-header {
     margin-bottom: 55px;
-    color: #4a4e6c;
+    color: #fff;
 }
 
 .content.faq:after {
@@ -359,9 +359,9 @@ FAQ
 
 .qa-column > .qa {
     margin-bottom: 30px;
-    border: 2px solid #4a4e6c;
+    border: 2px solid #fff;
     border-radius: 5px;
-    color: #4a4e6c !important;
+    color: #fff !important;
     padding: 40px 30px;
     width: 100%;
 }
@@ -395,7 +395,7 @@ SCHEDULE
 *****/
 
 .content.schedule {
-    background: #2a3b59;
+    background: #171f31;
     position: relative;
     z-index: 6;
 }
@@ -433,7 +433,7 @@ SCHEDULE
 TEAM
 *****/
 .content.team {
-    background: #4a4e6c;
+    background: #DEDAF2;
     position: relative;
     z-index: 5;
 }
@@ -455,7 +455,7 @@ TEAM
 .content.team div > * {
     width: 760px;
     margin: 0 auto;
-    color: #fff;
+    color: #171f31;
 }
 
 .content.team #profiles tr td {
@@ -487,6 +487,7 @@ TEAM
     .content.team div > * {
         width: 95%;
         margin: 0 auto;
+        color: #171f31;
     }
 
     .content.team #profiles tr td {
@@ -514,6 +515,7 @@ TEAM
     .content.team div > * {
         width: 95%;
         margin: 0 auto;
+        color: #171f31;
         text-align: center;
     }
 
@@ -562,10 +564,10 @@ SPONSORS
 *****/
 
 .content.sponsors {
-    background: #DEDAF2;
+    background: #4a4e6c;
     position: relative;
     z-index: 4;
-    color: #171f31;
+    color: #fff;
 }
 
 .content.sponsors > div {
@@ -587,6 +589,10 @@ SPONSORS
     font-size: 19px;
 }
 
+.content.sponsors #desc a {
+    color: #fff;
+    text-decoration: underline;
+}
 /*
 .content.sponsors:after {
   background: inherit;
