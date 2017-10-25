@@ -1,0 +1,15 @@
+<svg width="580" height="900" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <g id="canvasGrid" display="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <path fill="#B6C7EA" stroke-width="0" stroke-opacity="null" d="m81.631451,618.799272l116.938553,-307.132287l116.938553,307.132287l-233.877106,0z" id="svg_2" opacity="0.14" transform="rotate(179.83912658691406 198.57000732421875,465.2331237792968) "/>
+  <polyline stroke-linecap="round" id="svg_3" points="-81,280 -81,281 " stroke-opacity="null" stroke-width="0" stroke="#000" fill="none"/>
+ </g>
+ <g>
+  <title>background</title>
+ </g>
+</svg>
