@@ -1,0 +1,11 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" transform="rotate(90.2362060546875 308.16748046874994,212.45310974121097) " id="svg_2" d="m135.987074,464.485422l172.180416,-504.064635l172.180416,504.064635l-344.360833,0z" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#9ACEE6"/>
+ </g>
+</svg>
