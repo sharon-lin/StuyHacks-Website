@@ -505,82 +505,20 @@ TEAM
     color: #171f31;
 }
 
-.content.team #profiles tr td {
-    display: inline-block;
-    padding: 6px;
-}
-
-.content.team #profiles tr 
-
-.content.team #profiles tr .pfp {    
-    width: 40%;
-}
-
-.content.team #profiles tr .bio {
-    width: 57%;
-}
-
-.content.team #profiles tr .pfp .pfp-container {
-    width: 280px;
-    height: 190px;
-    overflow: hidden;
-}
-
-.content.team #profiles tr .pfp .pfp-container img {
-    width: 95%;
-}
-
 @media (max-width: 768px) {
     .content.team div > * {
         width: 95%;
         margin: 0 auto;
         color: #171f31;
     }
-
-    .content.team #profiles tr td {
-        display: inline-block;
-        padding: 6px;
-    }
-
-    .content.team #profiles tr .pfp {    
-        width: 40%;
-    }
-
-    .content.team #profiles tr .bio {
-        width: 57%;
-    }
-
-    .content.team #profiles tr .pfp img {
-        width: 95%;
-    }
 }
 
 @media (max-width: 576px) {
-    .content.team .section-header {
-
-    }
     .content.team div > * {
         width: 95%;
         margin: 0 auto;
         color: #171f31;
         text-align: center;
-    }
-
-    .content.team #profiles tr td {
-        display: block;
-        padding: 6px;
-    }
-
-    .content.team #profiles tr .pfp {    
-        width: 100%;
-    }
-
-    .content.team #profiles tr .bio {
-        width: 100%;
-    }
-
-    .content.team #profiles tr .pfp img {
-        width: 95%;
     }
 }
 
@@ -588,22 +526,8 @@ TEAM
     margin-bottom: 40px;
 }
 
-#profiles tr {
-    display: block;
-    margin-bottom: 25px;
-}
-
-#profiles tr .name {
-    margin-bottom: .2em;
-}
-
-#profiles tr .position {
-    font-weight: 500;
-    margin-bottom: .65em;
-}
-
-#profiles tr .testimonial {
-    font-size: 16px;
+.bio .testimonial {
+  font-size: 16px;
 }
 
 /*****
@@ -657,11 +581,11 @@ SPONSORS
 */
 
 div.pfp-container{
-  background-image:url(http://placekitten.com/g/200/400)
+  background-image:url(http://placekitten.com/g/200/400);
 /* make it responsive */
 max-width: 100%;
-width:100%;
-height:auto;
+width:100% !important;
+height:auto !important;
 display:block;
 /* div height to be the same as width*/
 padding-top:100%;
