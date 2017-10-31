@@ -499,6 +499,10 @@ TEAM
   z-index: -1;
 }
 
+.content.team div {
+  display: inline-block;
+}
+
 .content.team div > * {
     width: 760px;
     margin: 0 auto;
