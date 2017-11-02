@@ -124,10 +124,10 @@ a:hover {
 }
 
 #hero #tri7 {
-    position: absolute;
-    top: -24vh;
-    left: 80vw;
-}
+     position: absolute;
+     top: -24vh;
+     left: 80vw;
+ }
 
 #hero .date {
     font-size: 20px;
@@ -178,6 +178,8 @@ a:hover {
 
 #day-of-info-btn:hover {
     cursor: pointer;
+    background-color: #fff;
+    color: #FB627A;
 }
 
 .content {
@@ -273,6 +275,15 @@ JOIN US
 
 .content.join .section-header {
     margin-bottom: 55px;
+    background: repeating-linear-gradient(
+            45deg,
+            #5F688D,
+            #5F688D 10px,
+            #4a4e6c 10px,
+            #4a4e6c 20px
+    );
+    text-align: center;
+    width: 93%;
 }
 
 .content.join:after {
@@ -321,16 +332,32 @@ JOIN US
     border: 2px solid #FB627A;
 }
 
+.get-involved #hackbutton:hover {
+    background-color: #FB627A;
+}
+
 .get-involved #mentor a {
     border: 2px solid #9079F2;
+}
+
+.get-involved #mentorbutton:hover {
+    background-color: #9079F2;
 }
 
 .get-involved #sponsor a {
     border: 2px solid #07CEC0;
 }
 
+.get-involved #sponsorbutton:hover {
+    background-color: #07CEC0;
+}
+
 .get-involved #volunteer a {
     border: 2px solid #FFCE80;
+}
+
+.get-involved #volunteerbutton:hover {
+    background-color: #FFCE80;
 }
 
 @media (max-width: 768px) {
@@ -382,6 +409,15 @@ FAQ
 .content.faq .section-header {
     margin-bottom: 55px;
     color: #fff;
+    background: repeating-linear-gradient(
+            45deg,
+            #42526C,
+            #42526C 10px,
+            #2a3b59 10px,
+            #2a3b59 20px
+    );
+    text-align: center;
+    width: 93%;
 }
 
 .content.faq:after {
@@ -460,6 +496,15 @@ SCHEDULE
 
 .content.schedule .section-header {
     margin-bottom: 55px;
+    background: repeating-linear-gradient(
+            45deg,
+            #344152,
+            #344152 10px,
+            #171f31 10px,
+            #171f31 20px
+    );
+    text-align: center;
+    width: 93%;
 }
 
 .content.schedule:after {
@@ -528,6 +573,15 @@ TEAM
 
 .content.team .section-header {
     margin-bottom: 40px;
+    background: repeating-linear-gradient(
+            45deg,
+            #E6E8FA,
+            #E6E8FA 10px,
+            #DEDAF2 10px,
+            #DEDAF2 20px
+    );
+    text-align: center;
+    width: 55%;
 }
 
 .bio .testimonial {
@@ -595,6 +649,18 @@ SPONSORS
 
 #platinum img {
   height: 140px;
+}
+
+#sponsors #tri8 {
+    position: absolute;
+    top: 0vh;
+    left: -4.5vw;
+}
+
+#sponsors #tri9 {
+    position: absolute;
+    top: 5.8vh;
+    left: 2.5vw;
 }
 /*
 .content.sponsors:after {
