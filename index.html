@@ -241,6 +241,9 @@
           $.getJSON('/sponsors.json', function(data) {       
             for (const key in data) {
               const sponsor = data[key];
+              const link = document.createElement('a');
+              link.setAttribute('href', sponsor.url);
+              link.setAttribute('target', '_blank');
               const logo = document.createElement('img');
               logo.setAttribute('class', 'logo');
               logo.setAttribute('src', 'img/' + sponsor.logo);
@@ -252,8 +255,8 @@
               } else if (sponsor.level == 3) {
                 sponsorshipLevel = "platinum";
               }
-              console.log(sponsorshipLevel)
-              document.getElementById(sponsorshipLevel).append(logo);
+              link.append(logo);
+              document.getElementById(sponsorshipLevel).append(link);
             }
           });
         </script>
