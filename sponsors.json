@@ -1,0 +1,32 @@
+[
+  {
+    "level": 0,
+    "logo": "stickergiant.svg",
+    "url": "http://www.stickergiant.com"
+  },
+  {
+    "level": 0,
+    "logo": "stickeryou.opng",
+    "url": "https://www.stickeryou.com/"
+  },
+  {
+    "level": 1,
+    "logo": "princetonreview.jpg",
+    "url": "https://www.princetonreview.com/"
+  },
+  {
+    "level": 0,
+    "logo": "giphy.png",
+    "url": "https://giphy.com/"
+  },
+  {
+    "level": 0,
+    "logo": "dottech.png",
+    "url": "https://www.get.tech"
+  },
+  {
+    "level": 1,
+    "logo": "thinkboard.png",
+    "url": "https://www.think-board.com/"
+  }
+]
