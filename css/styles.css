@@ -539,10 +539,10 @@ SPONSORS
 *****/
 
 .content.sponsors {
-    background: #4a4e6c;
+    background: rgb(226, 225, 235);
     position: relative;
     z-index: 4;
-    color: #fff;
+    color: rgb(58, 64, 91);
 }
 
 .content.sponsors > div {
@@ -562,11 +562,39 @@ SPONSORS
 
 .content.sponsors #desc {
     font-size: 19px;
+    margin-bottom: 40px;
 }
 
 .content.sponsors #desc a {
-    color: #fff;
     text-decoration: underline; 
+}
+
+.content.sponsors h5 {
+  font-size: 32px;
+}
+
+.content.sponsors .logo {
+  margin: 10px;
+}
+
+.content.sponsors > div > div {
+  margin-bottom: 20px;
+}
+
+#bronze img {
+  height: 80px;
+}
+
+#silver img {
+  height: 105px;
+}
+
+#gold img {
+  height: 120px;
+}
+
+#platinum img {
+  height: 140px;
 }
 /*
 .content.sponsors:after {
