@@ -1,0 +1,11 @@
+<svg width="580" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path opacity="0.25" id="svg_1" d="m93.037503,288.453127l64.500004,-160.000001l64.500004,160.000001l-129.000008,0z" stroke-width="0" stroke="#000" fill="#CCCCFF"/>
+ </g>
+</svg>
