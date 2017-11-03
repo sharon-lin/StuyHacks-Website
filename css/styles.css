@@ -421,18 +421,18 @@ FAQ
 }
 
 .content.faq:after {
-  background: inherit;
-  bottom: 0;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  transform: skewY(-2.5deg);
-  transform-origin: 100%;
-  z-index: -1;
-}
+     background: inherit;
+     bottom: 0;
+     content: '';
+     display: block;
+     height: 50%;
+     left: 0;
+     position: absolute;
+     right: 0;
+     transform: skewY(-2.5deg);
+     transform-origin: 100%;
+     z-index: -1;
+ }
 
 .qa-column {
     display: inline-block;
@@ -662,6 +662,20 @@ SPONSORS
     top: 5.8vh;
     left: 2.5vw;
 }
+
+#sponsors #link {
+    background-image: linear-gradient(120deg, #E6E6FA 0%, #bba3d0 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.4em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    text-decoration: none;
+    color: #2a3b59;
+}
+
+#sponsors #link:hover {
+     background-size: 100% 88%;
+ }
 /*
 .content.sponsors:after {
   background: inherit;
@@ -710,3 +724,5 @@ bottom: 0;
 .pfp-container img {
   display: none;
 }
+
+
