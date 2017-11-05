@@ -29,4 +29,9 @@
     "logo": "thinkboard.png",
     "url": "https://www.think-board.com/"
   }
+  {
+    "level": 0,
+    "logo": "jetbrains.svg",
+    "url": "https://www.jetbrains.com/"
+  }
 ]
