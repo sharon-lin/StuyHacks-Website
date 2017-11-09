@@ -33,5 +33,10 @@
     "level": 0,
     "logo": "jetbrains.svg",
     "url": "https://www.jetbrains.com/"
+  },
+  {
+    "level": 3,
+    "logo": "nanotronics.png",
+    "url": "http://nanotronics.co"
   }
 ]
