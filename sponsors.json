@@ -38,5 +38,15 @@
     "level": 3,
     "logo": "nanotronics.png",
     "url": "http://nanotronics.co"
+  },
+  {
+    "level": 0,
+    "logo": "rstudio.png",
+    "url": "http://rstudio.com"
+  },
+  {
+    "level": 0,
+    "logo": "genheration.png",
+    "url": "http://genheration.com"
   }
 ]
