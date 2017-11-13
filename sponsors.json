@@ -48,5 +48,10 @@
     "level": 0,
     "logo": "genheration.png",
     "url": "http://genheration.com"
+  },
+  {
+    "level": 0,
+    “logo”: “sketch.svg”,
+    “url”: “https://www.sketchapp.com/“
   }
 ]
