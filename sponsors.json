@@ -58,5 +58,15 @@
     "level": 0,
     "logo": "upperline.png",
     "url": "http://www.upperlinecode.com"
+  },
+  {
+    "level": 0,
+    "logo": "insomnia.png",
+    "url": "https://insomniacookies.com/"
+  },
+  {
+    "level": 0,
+    "logo": "chipotle.png",
+    "url": "https://chipotle.com/"
   }
 ]
