@@ -25,7 +25,7 @@
     "url": "https://www.get.tech"
   },
   {
-    "level": 1,
+    "level": 0,
     "logo": "thinkboard.png",
     "url": "https://www.think-board.com/"
   },
@@ -55,7 +55,7 @@
     "url": "https://www.sketchapp.com/"
   },
   {
-    "level": 0,
+    "level": 1,
     "logo": "upperline.png",
     "url": "http://www.upperlinecode.com"
   },
@@ -68,5 +68,10 @@
     "level": 0,
     "logo": "chipotle.png",
     "url": "https://chipotle.com/"
+  },
+  {
+    "level": 1,
+    "logo": "plated.png",
+    "url": "https://plated.com/"
   }
 ]
