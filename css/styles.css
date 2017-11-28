@@ -529,6 +529,14 @@ SCHEDULE
     width: 100%;
 }
 
+.schedule-table tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-table th {
+    padding: 5px;
+}
+
 /*****
 TEAM
 *****/
